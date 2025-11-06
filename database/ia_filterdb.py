@@ -170,8 +170,8 @@ async def get_search_results(chat_id, query, file_type=None, max_results=None, o
             words = [re.escape(word) for word in query.split()]
             raw_pattern = r'.*'.join(words)
         else:
-            # For single-word queries, use word boundaries for accuracy.
-            raw_pattern = r"\b" + re.escape(query) + r"\b"
+            # For single-word queries, use a flexible substring search.
+            raw_pattern = re.escape(query)
 
         try:
             regex = re.compile(raw_pattern, flags=re.IGNORECASE)
