@@ -224,7 +224,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="">[ iP Update ]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/+rTUE0D0OHFFkMDBl">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/+rTUE0D0OHFFkMDBl">[ iP Update ]</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
